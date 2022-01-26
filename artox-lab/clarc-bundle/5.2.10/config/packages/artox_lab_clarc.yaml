@@ -1,0 +1,6 @@
+artox_lab_clarc:
+# Routing consumed message to specific bus
+    messenger:
+        transports:
+            listening:
+                bus: listening.bus

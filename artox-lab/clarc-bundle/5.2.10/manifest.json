@@ -1,0 +1,8 @@
+{
+    "env": {
+        "#BROADCASTING_MESSENGER_TRANSPORT_DSN": "amqp://user:password@hostname:5672/vhost",
+        "#BROADCASTING_MESSENGER_TRANSPORT_EXCHANGE": "messages-shared-exchange",
+        "#LISTENING_MESSENGER_TRANSPORT_DSN": "amqp://user:password@hostname:5672/vhost",
+        "#LISTENING_MESSENGER_TRANSPORT_EXCHANGE": "messages-shared-exchange"
+    }
+}
